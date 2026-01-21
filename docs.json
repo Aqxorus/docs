@@ -30,9 +30,7 @@
           {
             "group": "STG - Get Started",
             "icon": "rocket-launch",
-            "pages": [
-              "index"
-            ]
+            "pages": ["get-started/dashboard", "get-started/sops"]
           }
         ]
       },
