@@ -11,11 +11,25 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Dashboard",
+        "tab": "Main",
         "groups": [
           {
-            "group": "Information",
-            "pages": ["index"]
+            "group": "STG - Information",
+            "pages": ["index", "/dashboard/sops"]
+          }
+        ]
+      },
+      {
+        "tab": "Standard Operating Procedures",
+        "groups": [
+          {
+            "group": "STG - SOPs",
+            "pages": [
+              "/sops/deployment-policy",
+              "/sops/vehicles-and-equipment",
+              "/sops/ranks-and-callsigns",
+              "/sops/behaviour"
+            ]
           }
         ]
       }
